@@ -4,10 +4,8 @@ import "./BrandHeader.css";
 const BrandHeader = (props) => {
   return (
     <>
-      <div className="brand-header">
-        <h1 className="">{props.brandheading}</h1>
-        <p>{props.brandslogan}</p>
-      </div>
+        <h1 className="brand-header">{props.brandHeading}</h1>
+        <p>{props.brandSlogan}</p>
     </>
   );
 };

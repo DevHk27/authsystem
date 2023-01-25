@@ -1,0 +1,35 @@
+body{
+    /* background: url("../../public/mainbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin: 0% 0%;
+}
+.wholebody{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;    
+}
+.left-panel{
+    height: inherit;
+    width: 40vw;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app-header{
+    height: 40vh;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.app-body{
+    height: 60vh;
+    background-color: blanchedalmond;
+    width: inherit;
+}
