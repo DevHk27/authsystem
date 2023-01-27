@@ -1,14 +1,19 @@
 import React from "react";
+import "./SignUpForm.css";
 
 const SignUpForm = (props) => {
-    return (
-        <>
-            <form>
-                <label for={props.inputName}>{props.inputLabel}</label>
-                <Inputbox  />
-            </form>
-        </>
-    )
-}
+  return (
+    <>
+      <form>
+        <div className="input-wrap">
+          {props.inputBox}
+        </div>
+        <div className="button-wrap">
+            {props.button}
+        </div>
+      </form>
+    </>
+  );
+};
 
 export default SignUpForm;

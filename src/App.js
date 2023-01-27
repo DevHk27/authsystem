@@ -1,9 +1,9 @@
 import React from 'react';
-import MainApp from './pages/MainApp/MainApp';
+import SendOtp from './pages/sendOtp/SendOtp';
 
 const App = () => {
     return <>
-    <MainApp />
+    <SendOtp />
     </>
 }
 export default App;
