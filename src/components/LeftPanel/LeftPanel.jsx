@@ -8,7 +8,7 @@ const LeftPanel = (props) => {
       <div className="app-header">
         <BrandHeader
           brandHeading="Task-errrr"
-          brandSlogan="For your day-to-day tasks"
+          brandSlogan="For your day-to-day talks"
         />
       </div>
       <div className="app-body">{props.appBody}</div>

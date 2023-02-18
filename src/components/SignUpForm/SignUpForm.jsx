@@ -8,11 +8,17 @@ const SignUpForm = (props) => {
     <>
       <form>
         <div className="input-wrap">
-          <Inputbox type={props.inputType} placeholder={props.inputPlaceholder} />
+          <Inputbox
+            id = {props.inputId}
+            type={props.inputType}
+            value={props.inputValue}
+            placeholder={props.inputPlaceholder}
+            onChange={props.inputOnChange}
+         />
         </div>
       </form>
-        <div className="button-wrap">
-          <Button 
+      <div className="button-wrap">
+          <Button
             buttonId={props.buttonId}
             type="submit"
             placeholder={props.buttonPlaceholder}

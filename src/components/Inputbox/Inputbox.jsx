@@ -2,7 +2,7 @@ import React from "react";
 import './inputbox.css'
 const Inputbox = (props) => {
     return <>
-    <input type={props.type} placeholder={props.placeholder} className="input-common"/>
+    <input id={props.id} type={props.type} value={props.value} placeholder={props.placeholder} className="input-common" onChange={props.onChange}/>
     </>
 }
 
